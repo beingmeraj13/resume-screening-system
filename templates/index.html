@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Screening System</title>
+</head>
+<body>
+
+<h2>AI-Based Resume Screening System</h2>
+
+<form method="POST">
+    <label>Paste Resume Text:</label><br><br>
+    <textarea name="resume_text" rows="15" cols="80" required></textarea><br><br>
+    <button type="submit">Predict Job Category</button>
+</form>
+
+{% if prediction %}
+    <h3>Predicted Job Category: {{ prediction }}</h3>
+{% endif %}
+
+</body>
+</html>
