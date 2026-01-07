@@ -37,7 +37,7 @@ Predicts job category instantly
 Uses same preprocessing pipeline as training
 
 🚀 How to Run Locally
-git clone https://github.com/yourusername/resume-screening-system.git
+git clone https://github.com/beingmeraj13/resume-screening-system.git
 cd resume-screening-system
 python -m venv venv
 venv\Scripts\activate
